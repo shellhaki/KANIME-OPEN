@@ -1,0 +1,15 @@
+fastapi
+fastapi-cache2
+uvicorn[standard]
+aiosqlite
+slowapi
+jinja2
+yt-dlp
+python-dotenv
+httpx
+asyncpg
+beautifulsoup4
+playwright
+resend
+apscheduler
+certifi
