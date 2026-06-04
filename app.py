@@ -12,6 +12,7 @@ from routers.tiktok import router as tiktok_router, file_router
 from routers.anime import router as anime_router
 from helpers.anime_helper import get_animepahe_cookies
 
+
 load_dotenv()
 limiter = Limiter(
     key_func=get_remote_address,
@@ -20,7 +21,7 @@ limiter = Limiter(
 )
 
 app = FastAPI(
-    title="FAST-API Service",
+    title="K-anime Service",
     description="API for TikTok downloader and Anime scraper",
     version="1.0.0",
 )
